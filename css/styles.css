@@ -326,9 +326,11 @@ body.dark {
   width: 225px;
 }
 
+ /* Eliminando position absolute, para evitar que al hacer zoom 100% o más, se encimaran los botones ( demo y code), al texto.*/
+ 
 @media screen and (min-width: 760px) {
   .buttons {
-    position: absolute;
+    /*position: absolute;**/
     bottom: 1em;
   }
 }
