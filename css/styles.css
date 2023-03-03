@@ -77,11 +77,11 @@ body.dark {
 
 .flags__item {
   width: 30px;
+  cursor: pointer;
 }
 
 .flags__img {
-  display: block;
-  cursor: pointer;
+  display: block;  
 }
 
 .colors {
